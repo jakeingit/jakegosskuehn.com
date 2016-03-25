@@ -1,0 +1,24 @@
+{
+  "name": "jakegosskuehn.com",
+  "version": "1.0.1",
+  "description": "My personal site's source code.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakeingit/jakegosskuehn.com.git"
+  },
+  "author": "Jake Goss-Kuehn <jakeinmn@gmail.com> (http://www.jakegosskuehn.com)",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/jakeingit/jakegosskuehn.com/issues"
+  },
+  "homepage": "https://github.com/jakeingit/jakegosskuehn.com#readme",
+  "dependencies": {
+    "express": "^4.12.4",
+    "nib": "^1.1.0",
+    "stylus": "^0.51.1"
+  }
+}

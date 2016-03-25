@@ -1,0 +1,709 @@
+#backgroundjake {
+	
+	
+  display: block;
+  margin: 0;
+  background: #fff  fixed;
+  background-position: top right;
+  /*background-position: contain;*/
+  background-size: cover;
+  
+  position: relative;
+  z-index: 5;
+  top: 0;
+  
+  background-repeat: no-repeat;
+  
+
+}
+
+#top {
+  font-size: 30px;
+  white-space: nowrap;
+  text-shadow: #111111 3px 3px 3px;
+  display: block;
+  float: left;
+  width: 80%;
+  color: #ffcc33;
+  position: fixed;
+  
+  left: 15px;
+  z-index: 999;
+  width: 100%;
+  height: 23px;
+}
+
+#secret{
+padding:30dp;
+color: white;
+font-size:30pt;
+background-color: rgba(256, 256, 256, 0.25); 
+float:right;
+top: 15px;
+position: absolute;
+right: 30px;
+}
+
+#secrettext{
+ 
+  visibility:hidden;
+
+}
+#secrettext.show{
+
+  visibility:visible;
+}
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0.7; }
+}
+
+.withered {
+  
+  position: relative;
+  z-index: 10;
+  top: 0;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 30px 50px 100px 50px;
+  
+  background-image: url("images/witheredbackground.png");
+}
+
+.description{
+	padding-left: 10px
+	text-shadow: #111111 3px 3px 3px;
+    display: block;
+    float: left;
+    width: 40%;
+    text-align: left;
+    padding-right: 10px;
+    color: #FFFFFF;
+	
+	font-size:16px;
+	
+}
+
+.darkness{
+background-color: rgba(0, 0, 0, 0.33);	
+	
+}
+
+.shadow{
+text-shadow: #111111 5px 5px 5px;	
+	
+}
+
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+
+
+
+@font-face {
+    font-family: 'Cubano';
+    src: url("fonts/cubano-webfont.eot");
+    src: url("fonts/cubano-webfont.eot?#iefix") format('embedded-opentype'), url("fonts/cubano-webfont.woff2") format('woff2'), url("fonts/cubano-webfont.woff") format('woff'), url("fonts/cubano-webfont.ttf") format('truetype'), url("fonts/cubano-webfont.svg#cubanoregular") format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    vertical-align: baseline
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li{
+	color: #DDDDDD;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+	text-shadow: #111111 2px 2px 2px;
+}
+activitywhitener{
+	
+	color: #CCCCCC;
+	text-shadow: #111111 2px 2px 2px;
+	font-size: 20px;
+}
+body {
+    line-height: 1;
+    color: #333;
+    background: #fff
+}
+ol,
+ul {
+    list-style: none
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    vertical-align: middle
+}
+caption,
+th,
+td {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle
+}
+a img {
+    border: none
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+body {
+    font: 32px/40px 'Cubano', sans-serif;
+    color: #777
+}
+
+a {
+    color: #777;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+a:focus,
+a:hover {
+    color: #999
+}
+.logo {
+	
+    margin: 30px 0 40px 20%;
+}
+.logo img {
+	
+    display: block;
+    height: 150px;
+    margin-left: -81px
+}
+h1 {
+    margin-bottom: 60px;
+}
+h1 a {
+    display: block;
+    overflow: hidden;
+    text-decoration: none
+}
+header{
+	margin-bottom: 30px;
+}
+h1 .first-name {
+    
+	text-shadow: #111111 3px 3px 3px;
+    display: block;
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    color: #FFFFFF
+}
+
+h1 .last-name {
+	white-space: nowrap;
+	text-shadow: #111111 3px 3px 3px;
+    display: block;
+    float: left;
+    width: 80%;
+    color: #ffcc33
+}
+h1 .description{
+	
+	font-size: 20px;
+	white-space: nowrap;
+	text-shadow: #111111 3px 3px 3px;
+    display: block;
+    float: left;
+    width: 80%;
+    color: #ffcc33
+}
+.container {
+	
+    padding: 0 10%;
+    margin: 0 auto
+}
+section {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+section h2 {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    color: #FFFFFF;
+}
+section p,
+section ul {
+    float: left;
+    width: 80%
+}
+section li {
+    padding-left: 20px;
+    text-indent: -20px
+}
+.footer {
+	
+    margin: 40px 20px 20px;
+    font: 14px/20px 'Cubano', sans-serif;
+    text-align: center
+}
+
+.alp {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #e58c2c;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.alp:focus,
+.alp:hover {
+    color: #eca961
+}
+.apple {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #333;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.apple:focus,
+.apple:hover {
+    color: #666
+}
+.chr {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #3b5998;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.chr:focus,
+.chr:hover {
+    color: #5d7dc0
+}
+.calhacks {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #f6b100;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+
+.calhacks::selection,
+.ditto::selection
+{
+	background-color: yellow;
+    color: black;
+
+}
+
+.calhacks:focus,
+.calhacks:hover {
+    color: #ffc739
+}
+.ditto {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #800080;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.ditto:focus,
+.ditto:hover {
+    color: #e000df
+}
+.email {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #ee3724;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.email:focus,
+.email:hover {
+    color: #f2695b
+}
+.facebook {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #3b5998;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.facebook:focus,
+.facebook:hover {
+    color: #5d7dc0
+}
+.android {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #A4C639;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.android:focus,
+.android:hover {
+    color: #C6E85A
+}
+
+.resumeblaster {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #AAD450;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.resumeblaster:focus,
+.resumeblaster:hover {
+    color: #CCF67B
+}
+
+.pinterest {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #bd081c;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.pinterest:focus,
+.pinterest:hover {
+    color: #df2a3e
+}
+
+.linkedin {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #007BB6;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.linkedin:focus,
+.linkedin:hover {
+    color: #228dd7
+}
+
+.reddit {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #cee3f8;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.reddit:focus,
+.reddit:hover {
+    color: #dff4F9
+}
+ 
+
+ .instagram {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #125688;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.instagram:focus,
+.instagram:hover {
+    color: #3578AA
+}
+
+.github {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #333;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.github:focus,
+.github:hover {
+    color: #666
+}
+
+
+
+.tumblr {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #35465c;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.tumblr:focus,
+.tumblr:hover {
+    color: #57687e
+}
+
+.twitterbot {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #999999;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.twitterbot:focus,
+.twitterbot:hover {
+    color: #aaaaaa
+}
+.hh {
+	text-shadow: #111111 1px 1px 1px;		
+    color: #19a84c;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.hh:focus,
+.hh:hover {
+    color: #30e06f
+}
+.jpl {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #ee3724;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.jpl:focus,
+.jpl:hover {
+    color: #f2695b
+}
+.thered {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #FF0000;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.thered:focus,
+.thered:hover {
+    color: #FF3333
+}
+.medium {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #333;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.medium:focus,
+.medium:hover {
+    color: #666
+}
+.instymeds {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #99CCFF;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.instymeds:focus,
+.instymeds:hover {
+    color: #BBEEFF
+}
+.puddin {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #e58c2c;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.puddin:focus,
+.puddin:hover {
+    color: #eca961
+}
+.boardgamer {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #7a0019;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.boardgamer:focus,
+.boardgamer:hover {
+    color: #9C223B
+}
+.twitter {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #55acee;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.twitter:focus,
+.twitter:hover {
+    color: #80c1f2
+}
+@media (max-width: 1279px) {
+    .container {
+        padding: 0
+    }
+}
+@media (max-width: 959px) {
+    body {
+        font: 28px/30px 'Cubano', sans-serif
+    }
+    .logo {
+        margin: 40px 0 20px 50%
+    }
+    h2.first-name,
+    h2.last-name {
+        width: 50%
+    }
+    main {
+        padding: 0 20px
+    }
+    section {
+        margin-bottom: 30px;
+    }
+    section h2 {
+        margin-bottom: 15px;
+        text-align: left
+    }
+    section h2,
+    section p,
+    section ul {
+        float: none;
+        width: auto
+    }
+
+	
+    section li {
+        margin-bottom: 15px
+    }
+    .footer {
+		color: #AAAAAA;
+        font: 12px/15px 'Cubano', sans-serif
+    }
+}
