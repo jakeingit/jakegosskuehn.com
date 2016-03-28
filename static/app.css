@@ -7,12 +7,18 @@
   background-position: top right;
   /*background-position: contain;*/
   background-size: cover;
+  background: no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  
+  background-size: cover;
   
   position: relative;
   z-index: 5;
   top: 0;
   
   background-repeat: no-repeat;
+  -o-background-size: cover;
   
 
 }
@@ -53,6 +59,11 @@ right: 30px;
 
   visibility:visible;
 }
+.emailblink_me {
+  animation: blinker 1s linear infinite;
+  color: #f2695b;
+}
+
 .blink_me {
   animation: blinker 1s linear infinite;
 }
@@ -60,6 +71,22 @@ right: 30px;
 @keyframes blinker {  
   50% { opacity: 0.7; }
 }
+#popup { color: #000; background-color: #c0c0c0; }
+
+#popup a, #popup a:visited {
+	position: relative;
+	display: block;
+	width: 130px;
+	line-height: 30px;
+	text-align: right;
+	padding: 0 10px;
+	margin: 0;
+	border: 1px solid #666;
+	text-decoration: none;
+	font-size: 1em;
+	font-weight: bold;
+}
+
 
 .withered {
   
@@ -261,6 +288,11 @@ a:hover {
     height: 150px;
     margin-left: -81px
 }
+
+img.resize{
+	width:50%; /* you can use % */
+    height: auto;
+}
 h1 {
     margin-bottom: 60px;
 }
@@ -326,6 +358,48 @@ section li {
     padding-left: 20px;
     text-indent: -20px
 }
+
+ol#toc {
+    height: 2em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ol#toc li {
+    background: #bdf url(tabs.gif);
+    float: left;
+    margin: 0 1px 0 0;
+    padding-left: 10px;
+}
+
+ol#toc a {
+    background: url(tabs.gif) 100% 0;
+    color: #008;
+    float: left;
+    line-height: 2em;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+ol#toc li.current {
+    background-color: #48f;
+    background-position: 0 -60px;
+}
+
+ol#toc li.current a {
+    background-position: 100% -60px;
+    color: #fff;
+    font-weight: bold;
+}
+
+div.content {
+    border: #48f solid 3px;
+    clear: left;
+    padding: 1em;
+}
+
+
 .footer {
 	
     margin: 40px 20px 20px;
@@ -420,6 +494,18 @@ section li {
 .email:hover {
     color: #f2695b
 }
+
+r {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #008;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+
+
 .facebook {
 	text-shadow: #111111 1px 1px 1px;	
     color: #3b5998;
@@ -665,6 +751,282 @@ section li {
 .twitter:hover {
     color: #80c1f2
 }
+
+.simplestrength {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #3F51B5 ;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.simplestrength:focus,
+.simplestrength:hover {
+    color: #5F73D7 
+}
+
+.incontact {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #607D8B ;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.incontact:focus,
+.incontact:hover {
+    color: #829FAD 
+}
+
+.todayhourly {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #8BC34A ;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.todayhourly:focus,
+.todayhourly:hover {
+    color: #aDE56C 
+}
+
+.essentialhabits {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #FF9800;
+	-webkit-transition:	color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.essentialhabits:focus,
+.essentialhabits:hover {
+    color: #FFBA22 
+}
+
+.communalcosts {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #9B26AF ;
+	-webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.communalcosts:focus,
+.communalcosts:hover {
+    color: #BD48CF 
+}
+
+.jinglebear {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #B38B6D;
+	-webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.jinglebear:focus,
+.jinglebear:hover {
+    color: #D5AF8F 
+}
+
+.dota {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #B44335;
+	-webkit-transition:	color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.dota:focus,
+.dota:hover {
+    color: #D66557
+}
+
+.extra1 {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #d32ce6;
+	-webkit-transition:	color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.extra1:focus,
+.extra1:hover {
+    color: #F54EF8
+}
+
+.extra2 {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #FFBE66;
+	-webkit-transition:	color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.extra2:focus,
+.extra2:hover {
+    color: #FFDF88
+}
+
+.extra3 {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #663300;
+ -webkit-transition:	color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.extra3:focus,
+.extra3:hover {
+    color: #885522
+}
+
+.extra4 {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #806641;
+	-webkit-transition:	color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.extra4:focus,
+.extra4:hover {
+    color: #a28863
+}
+
+.hoopla {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #71EEB8;
+	-webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.hoopla:focus,
+.hoopla:hover {
+    color: #93FFDA
+}
+
+.emi {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #FFDAB9;
+-webkit-transition:	color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.emi:focus,
+.emi:hover {
+    color: #FFFCDB
+}
+
+.siri {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #FFFFE0;
+-webkit-transition:	color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.siri:focus,
+.siri:hover {
+    color: #FFFFF2
+}
+
+.chan {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #779922;
+-webkit-transition:	color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.chan:focus,
+.chan:hover {
+    color: #99BB44
+}
+
+.jinglebear {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #8FD8D8;
+-webkit-transition:	color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.jinglebear:focus,
+.jinglebear:hover {
+    color: #AFFAFA
+}
+
+#cssmenu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: auto;
+  position: relative;
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  background: #353535;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 1px solid #353535;
+  zoom: 1;
+}
+#cssmenu ul:before {
+  content: '';
+  display: block;
+}
+#cssmenu ul:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#cssmenu li {
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0 4px;
+}
+#cssmenu li a {
+  display: block;
+  float: left;
+  color: #999999;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 3px 20px 0px 20px;
+  border-bottom: 3px solid transparent;
+}
+#cssmenu li a:hover {
+  color: #FFFFFF;
+  border-bottom: 3px solid #00b8fd;
+}
+#cssmenu li.active a {
+  display: inline;
+  border-bottom: 3px solid #00b8fd;
+  float: left;
+  margin: 0;
+}
+
+
+
 @media (max-width: 1279px) {
     .container {
         padding: 0
