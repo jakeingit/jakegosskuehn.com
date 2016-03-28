@@ -2,7 +2,8 @@
 
 My personal site's source code. The Central hub.
 
-![demo image of site](http://i.imgur.com/p9h39pO.jpg)
+![1st demo image of site](http://i.imgur.com/YYDEKdR.jpg)
+![2nd demo image of site](http://i.imgur.com/e2qTA5H.jpg)
 
 ## Usage
 
