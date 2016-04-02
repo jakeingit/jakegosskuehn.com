@@ -1,3 +1,6 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
+
+
 #backgroundjake {
 	
 	
@@ -20,6 +23,19 @@
   background-repeat: no-repeat;
   -o-background-size: cover;
   
+
+}
+
+small{
+font-family: 'Open Sans';
+font-style: normal;
+font-variant: normal;
+}
+
+.h2 small{
+font-family: 'Open Sans';
+font-style: normal;
+font-variant: normal;
 
 }
 
@@ -134,7 +150,13 @@ text-shadow: #111111 5px 5px 5px;
     }
 }
 
-
+@font-face {
+    font-family: 'OpenSans';
+    src: url("fonts/cubano-webfont.eot");
+    src: url("fonts/cubano-webfont.eot?#iefix") format('embedded-opentype'), url("fonts/cubano-webfont.woff2") format('woff2'), url("fonts/cubano-webfont.woff") format('woff'), url("fonts/cubano-webfont.ttf") format('truetype'), url("fonts/cubano-webfont.svg#cubanoregular") format('svg');
+    font-weight: normal;
+    font-style: normal
+}
 
 
 @font-face {
@@ -171,7 +193,6 @@ kbd,
 q,
 s,
 samp,
-small,
 strike,
 strong,
 sub,
@@ -506,6 +527,11 @@ r {
 }
 
 
+
+
+
+
+
 .facebook {
 	text-shadow: #111111 1px 1px 1px;	
     color: #3b5998;
@@ -519,7 +545,117 @@ r {
 .facebook:hover {
     color: #5d7dc0
 }
+
+python {
+	font-size:12px;
+    color: #4169E1;
+
+}
+
+.python {
+
+	text-shadow: #111111 1px 1px 1px;	
+    color: #4169E1;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.python:focus,
+.python:hover {
+    color: #638BF3
+}
+
+socialmedia {
+	font-size:12px;
+    color: #55acee;
+
+}
+
+.socialmedia {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #55acee;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.socialmedia:focus,
+.socialmedia:hover {
+    color: #80c1f2
+}
+
+socialmediafun{
+	font-size:12px;	
+    color: #80c1f2;
+
+}
+
+
+.socialmediafun{
+	text-shadow: #111111 1px 1px 1px;	
+    color: #80c1f2;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.socialmediafun:focus,
+.socialmediafun:hover {
+    color: #A2E3f4
+}
+
+csharp {
+	font-size:12px;
+    color: #DCDCDC;
+
+}
+
+.csharp {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #DCDCDC;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.csharp:focus,
+.csharp:hover {
+    color: #FDFDFD
+}
+
+automation {
+	font-size:12px;
+    color: #FF69B4;
+
+}
+
+.automation {
+	text-shadow: #111111 1px 1px 1px;	
+    color: #FF69B4;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.automation:focus,
+.automation:hover {
+    color: #FF8BD6
+}
+
+android {
+	font-size:12px;
+    color: #A4C639;
+
+}
+
 .android {
+
 	text-shadow: #111111 1px 1px 1px;	
     color: #A4C639;
     -webkit-transition: color 0.25s;
