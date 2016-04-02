@@ -6,7 +6,7 @@
 	
   display: block;
   margin: 0;
-  background: #fff  fixed;
+  background: #FFFFFF  fixed;
   background-position: top right;
   /*background-position: contain;*/
   background-size: cover;
@@ -131,7 +131,7 @@ right: 30px;
 }
 
 .darkness{
-background-color: rgba(0, 0, 0, 0.33);	
+background-color: rgba(0, 0, 0, 0.80);	
 	
 }
 
