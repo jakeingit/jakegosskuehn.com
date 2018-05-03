@@ -1,0 +1,1215 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
+
+
+#backgroundjake {
+	
+	
+  display: block;
+  margin: 0;
+  background: #FFFFFF  fixed;
+  background-position: top right;
+  /*background-position: contain;*/
+  background-size: cover;
+  background: no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  
+  background-size: cover;
+  
+  position: relative;
+  z-index: 5;
+  top: 0;
+  
+  background-repeat: no-repeat;
+  -o-background-size: cover;
+  
+
+}
+
+small{
+font-size: 16px;
+font-family: 'Open Sans';
+font-style: normal;
+font-variant: normal;
+}
+
+.h2 small{
+font-family: 'Open Sans';
+font-style: normal;
+font-variant: normal;
+
+}
+
+#top {
+  font-size: 30px;
+  white-space: nowrap;
+  
+  display: block;
+  float: left;
+  width: 80%;
+  color: #ffcc33;
+  position: fixed;
+  
+  left: 15px;
+  z-index: 999;
+  width: 100%;
+  height: 23px;
+}
+
+#secret{
+padding:30dp;
+color: white;
+font-size:30pt;
+background-color: rgba(256, 256, 256, 0.25); 
+float:right;
+top: 15px;
+position: absolute;
+right: 30px;
+}
+
+#secrettext{
+ 
+  visibility:hidden;
+
+}
+#secrettext.show{
+
+  visibility:visible;
+}
+.emailblink_me {
+  animation: blinker 1s linear infinite;
+  color: #f2695b;
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0.7; }
+}
+#popup { color: #000; background-color: #c0c0c0; }
+
+#popup a, #popup a:visited {
+	position: relative;
+	display: block;
+	width: 130px;
+	line-height: 30px;
+	text-align: right;
+	padding: 0 10px;
+	margin: 0;
+	border: 1px solid #666;
+	text-decoration: none;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+
+.withered {
+  
+  position: relative;
+  z-index: 10;
+  top: 0;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 30px 50px 100px 50px;
+  
+  background-image: url("images/witheredbackground.png");
+}
+
+.description{
+	padding-left: 10px
+	
+    display: block;
+    float: left;
+    width: 40%;
+    text-align: left;
+    padding-right: 10px;
+    color: #FFFFFF;
+	
+	font-size:16px;
+	
+}
+
+body {
+	background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    vertical-align: baseline
+}
+
+.darkness{
+background-color: rgba(0, 0, 0, 0.80);	
+	
+}
+
+
+
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url("fonts/cubano-webfont.eot");
+    src: url("fonts/cubano-webfont.eot?#iefix") format('embedded-opentype'), url("fonts/cubano-webfont.woff2") format('woff2'), url("fonts/cubano-webfont.woff") format('woff'), url("fonts/cubano-webfont.ttf") format('truetype'), url("fonts/cubano-webfont.svg#cubanoregular") format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+
+@font-face {
+    font-family: 'Cubano';
+    src: url("fonts/cubano-webfont.eot");
+    src: url("fonts/cubano-webfont.eot?#iefix") format('embedded-opentype'), url("fonts/cubano-webfont.woff2") format('woff2'), url("fonts/cubano-webfont.woff") format('woff'), url("fonts/cubano-webfont.ttf") format('truetype'), url("fonts/cubano-webfont.svg#cubanoregular") format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    vertical-align: baseline
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li{
+	color: #555555;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+	
+}
+activitywhitener{
+	
+	color: #DDDDDD;
+	
+
+}
+body {
+    line-height: 1;
+    color: #333;
+    background: #fff
+}
+ol,
+ul {
+    list-style: none
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    vertical-align: middle
+}
+caption,
+th,
+td {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle
+}
+a img {
+    border: none
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+body {
+    font: 32px/40px 'Cubano', sans-serif;
+    color: #777
+}
+
+a {
+    color: #777;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+a:focus,
+a:hover {
+    color: #999
+}
+.logo {
+	
+    margin: 30px 0 40px 20%;
+}
+.logo img {
+	
+    display: block;
+    height: 150px;
+    margin-left: -81px
+}
+
+img.resize{
+	width:50%; /* you can use % */
+    height: auto;
+}
+h1 {
+    margin-bottom: 60px;
+}
+h1 a {
+    display: block;
+    overflow: hidden;
+    text-decoration: none
+}
+header{
+	margin-bottom: 30px;
+}
+h1 .first-name {
+    
+    display: block;
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    color: #999999
+}
+
+h1 .last-name {
+	white-space: nowrap;
+    display: block;
+    float: left;
+    width: 80%;
+    color: #89b9c1
+}
+h1 .description{
+	
+	font-size: 20px;
+	white-space: nowrap;
+    display: block;
+    float: left;
+    width: 80%;
+    color: #ffcc33
+}
+.container {
+	
+    padding: 0 10%;
+    margin: 0 auto
+}
+section {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+section h2 {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    color: #999999;
+}
+section p,
+section ul {
+    float: left;
+    width: 80%
+}
+section li {
+    padding-left: 20px;
+    text-indent: -20px
+}
+
+ol#toc {
+    height: 2em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ol#toc li {
+    background: #bdf url(tabs.gif);
+    float: left;
+    margin: 0 1px 0 0;
+    padding-left: 10px;
+}
+
+ol#toc a {
+    background: url(tabs.gif) 100% 0;
+    color: #008;
+    float: left;
+    line-height: 2em;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+ol#toc li.current {
+    background-color: #48f;
+    background-position: 0 -60px;
+}
+
+ol#toc li.current a {
+    background-position: 100% -60px;
+    color: #fff;
+    font-weight: bold;
+}
+
+div.content {
+    border: #48f solid 3px;
+    clear: left;
+    padding: 1em;
+}
+
+
+.footer {
+	
+    margin: 40px 20px 20px;
+    font: 14px/20px 'Cubano', sans-serif;
+    text-align: center
+}
+
+.alp {
+	
+    color: #e58c2c;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.alp:focus,
+.alp:hover {
+    color: #eca961
+}
+.apple {
+	
+    color: #333;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.apple:focus,
+.apple:hover {
+    color: #666
+}
+.chr {
+	
+    color: #3b5998;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.chr:focus,
+.chr:hover {
+    color: #5d7dc0
+}
+.calhacks {
+	
+    color: #f6b100;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+
+.calhacks::selection,
+.ditto::selection
+{
+	background-color: yellow;
+    color: black;
+
+}
+
+.calhacks:focus,
+.calhacks:hover {
+    color: #ffc739
+}
+.ditto {
+	
+    color: #800080;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.ditto:focus,
+.ditto:hover {
+    color: #e000df
+}
+.email {
+	
+    color: #ee3724;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.email:focus,
+.email:hover {
+    color: #f2695b
+}
+
+r {
+	
+    color: #008;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+
+
+
+
+
+
+
+.facebook {
+	
+    color: #3b5998;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.facebook:focus,
+.facebook:hover {
+    color: #5d7dc0
+}
+
+python {
+	font-size:12px;
+    color: #4169E1;
+
+}
+
+.python {
+
+	
+    color: #4169E1;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.python:focus,
+.python:hover {
+    color: #638BF3
+}
+
+socialmedia {
+	font-size:12px;
+    color: #55acee;
+
+}
+
+.socialmedia {
+	
+    color: #55acee;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.socialmedia:focus,
+.socialmedia:hover {
+    color: #80c1f2
+}
+
+socialmediafun{
+	font-size:12px;	
+    color: #80c1f2;
+
+}
+
+
+.socialmediafun{
+	
+    color: #80c1f2;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.socialmediafun:focus,
+.socialmediafun:hover {
+    color: #A2E3f4
+}
+
+csharp {
+	font-size:12px;
+    color: #DCDCDC;
+
+}
+
+.csharp {
+	
+    color: #DCDCDC;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.csharp:focus,
+.csharp:hover {
+    color: #FDFDFD
+}
+
+automation {
+	font-size:12px;
+    color: #FF69B4;
+
+}
+
+.automation {
+	
+    color: #FF69B4;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.automation:focus,
+.automation:hover {
+    color: #FF8BD6
+}
+
+android {
+	font-size:12px;
+    color: #A4C639;
+
+}
+
+.android {
+
+	
+    color: #A4C639;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.android:focus,
+.android:hover {
+    color: #C6E85A
+}
+
+.resumeblaster {
+	
+    color: #AAD450;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.resumeblaster:focus,
+.resumeblaster:hover {
+    color: #CCF67B
+}
+
+.pinterest {
+	
+    color: #bd081c;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.pinterest:focus,
+.pinterest:hover {
+    color: #df2a3e
+}
+
+.linkedin {
+	
+    color: #007BB6;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.linkedin:focus,
+.linkedin:hover {
+    color: #228dd7
+}
+
+.reddit {
+	
+    color: #cee3f8;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.reddit:focus,
+.reddit:hover {
+    color: #dff4F9
+}
+ 
+
+ .instagram {
+	
+    color: #125688;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.instagram:focus,
+.instagram:hover {
+    color: #3578AA
+}
+
+.job {
+	
+    color: #89b9c1;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.job:focus,
+.job:hover {
+    color: #8ac2cc
+}
+
+
+
+.tumblr {
+	
+    color: #35465c;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.tumblr:focus,
+.tumblr:hover {
+    color: #57687e
+}
+
+.twitterbot {
+	
+    color: #999999;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.twitterbot:focus,
+.twitterbot:hover {
+    color: #aaaaaa
+}
+.hh {
+		
+    color: #19a84c;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.hh:focus,
+.hh:hover {
+    color: #30e06f
+}
+.jpl {
+	
+    color: #ee3724;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.jpl:focus,
+.jpl:hover {
+    color: #f2695b
+}
+.thered {
+	
+    color: #FF0000;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.thered:focus,
+.thered:hover {
+    color: #FF3333
+}
+.medium {
+	
+    color: #333;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.medium:focus,
+.medium:hover {
+    color: #666
+}
+.instymeds {
+	
+    color: #99CCFF;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.instymeds:focus,
+.instymeds:hover {
+    color: #BBEEFF
+}
+.puddin {
+	
+    color: #e58c2c;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.puddin:focus,
+.puddin:hover {
+    color: #eca961
+}
+.boardgamer {
+	
+    color: #7a0019;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.boardgamer:focus,
+.boardgamer:hover {
+    color: #9C223B
+}
+.twitter {
+	
+    color: #55acee;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.twitter:focus,
+.twitter:hover {
+    color: #80c1f2
+}
+
+.simplestrength {
+	
+    color: #3F51B5 ;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.simplestrength:focus,
+.simplestrength:hover {
+    color: #5F73D7 
+}
+
+.incontact {
+	
+    color: #607D8B ;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.incontact:focus,
+.incontact:hover {
+    color: #829FAD 
+}
+
+.todayhourly {
+	
+    color: #8BC34A ;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.todayhourly:focus,
+.todayhourly:hover {
+    color: #aDE56C 
+}
+
+.essentialhabits {
+	
+    color: #FF9800;
+	-webkit-transition:	color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.essentialhabits:focus,
+.essentialhabits:hover {
+    color: #FFBA22 
+}
+
+.communalcosts {
+	
+    color: #9B26AF ;
+	-webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.communalcosts:focus,
+.communalcosts:hover {
+    color: #BD48CF 
+}
+
+.jinglebear {
+	
+    color: #B38B6D;
+	-webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.jinglebear:focus,
+.jinglebear:hover {
+    color: #D5AF8F 
+}
+
+.dota {
+	
+    color: #B44335;
+	-webkit-transition:	color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.dota:focus,
+.dota:hover {
+    color: #D66557
+}
+
+.extra1 {
+	
+    color: #d32ce6;
+	-webkit-transition:	color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.extra1:focus,
+.extra1:hover {
+    color: #F54EF8
+}
+
+.extra2 {
+	
+    color: #FFBE66;
+	-webkit-transition:	color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.extra2:focus,
+.extra2:hover {
+    color: #FFDF88
+}
+
+.extra3 {
+	
+    color: #663300;
+ -webkit-transition:	color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.extra3:focus,
+.extra3:hover {
+    color: #885522
+}
+
+.extra4 {
+	
+    color: #806641;
+	-webkit-transition:	color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.extra4:focus,
+.extra4:hover {
+    color: #a28863
+}
+
+.hoopla {
+	
+    color: #71EEB8;
+	-webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.hoopla:focus,
+.hoopla:hover {
+    color: #93FFDA
+}
+
+.emi {
+	
+    color: #FFDAB9;
+-webkit-transition:	color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.emi:focus,
+.emi:hover {
+    color: #FFFCDB
+}
+
+.siri {
+	
+    color: #FFFFE0;
+-webkit-transition:	color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.siri:focus,
+.siri:hover {
+    color: #FFFFF2
+}
+
+.chan {
+	
+    color: #779922;
+-webkit-transition:	color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.chan:focus,
+.chan:hover {
+    color: #99BB44
+}
+
+.jinglebear {
+	
+    color: #8FD8D8;
+-webkit-transition:	color 0.25s;
+    -moz-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    transition: color 0.25s;
+}
+.jinglebear:focus,
+.jinglebear:hover {
+    color: #AFFAFA
+}
+
+#cssmenu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: auto;
+  position: relative;
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  background: #353535;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 1px solid #353535;
+  zoom: 1;
+}
+#cssmenu ul:before {
+  content: '';
+  display: block;
+}
+#cssmenu ul:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#cssmenu li {
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0 4px;
+}
+#cssmenu li a {
+  display: block;
+  float: left;
+  color: #999999;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 3px 20px 0px 20px;
+  border-bottom: 3px solid transparent;
+}
+#cssmenu li a:hover {
+  color: #FFFFFF;
+  border-bottom: 3px solid #00b8fd;
+}
+#cssmenu li.active a {
+  display: inline;
+  border-bottom: 3px solid #00b8fd;
+  float: left;
+  margin: 0;
+}
+
+
+
+@media (max-width: 1279px) {
+    .container {
+        padding: 0
+    }
+}
+@media (max-width: 959px) {
+    body {
+        font: 28px/30px 'Cubano', sans-serif
+    }
+    .logo {
+        margin: 40px 0 20px 50%
+    }
+    h2.first-name,
+    h2.last-name {
+        width: 50%
+    }
+    main {
+        padding: 0 20px
+    }
+    section {
+        margin-bottom: 30px;
+    }
+    section h2 {
+        margin-bottom: 15px;
+        text-align: left
+    }
+    section h2,
+    section p,
+    section ul {
+        float: none;
+        width: auto
+    }
+
+	
+    section li {
+        margin-bottom: 15px
+    }
+    .footer {
+		color: #AAAAAA;
+        font: 12px/15px 'Cubano', sans-serif
+    }
+}
